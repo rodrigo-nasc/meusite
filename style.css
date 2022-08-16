@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url(/reset.css);
+
+body {
+    background: url(/pexels-sharad-kachhi-3937174.jpg);
+    font-family: "Nunito", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho {
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50%;
+    border: solid 2px #02d9e9;
+    margin-left: 2rem;
+}
+
+.informacoes {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.titulo {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.sub__titulo {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+    line-height: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.icone {
+    width: 24px;
+    vertical-align: -5px;
+}
+
+.descricao {
+    color: white;
+    font-size: 22px;
+    padding: 15px 20px;
+}
+
+.titulo__principal {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 4rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 4rem auto;
+    justify-content: space-between;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 10px;
+    border-radius: 4px;
+}
+
+.card {
+    display: flex;
+    width: 24%;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    border-radius: 7px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.titulo-card {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 25px;
+    padding: 15px;
+    font-weight: bold;
+    align-self: flex-end;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+}
+
+.link__card {
+    text-decoration: none;
+    color: white;
+}
+
+.link__card:hover {
+    color: #02d9e9;
+}
+
+.card1 {
+    background-image: url(/1657721698683.jpg);
+}
+
+.card2 {
+    background-image: url(/1657722021085.jpg);
+}
+
+.card3 {
+    background-image: url(/1657727291070.jpg);
+}
+
+.card4 {
+    background-image: url(/1658279353123.jpg);
+}
+
+.sub__principal {
+    width: 80%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.sub__titulo-secundario {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.rodape {
+    margin-top: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px 0;
+    border-radius: 4px;
+}
+
+.info__contato {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.descricao1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link__email {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link__email:hover {
+    color: blue;
+}
+
+hr {
+    margin-top: 2rem;
+}
+
+.rodape__sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.titulo__redes {
+    width: 20%;
+    color: white;
+    font-size: 20px;
+}
+
+.item__redes {
+    width: 5%;
+}
+
+@media (max-width: 708px) {
+    .cabecalho {
+        width: 100%;
+        display: block;
+        border-radius: 0%;
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+    }
+
+    .titulo {
+        margin-top: 2rem;
+    }
+
+    .informacoes {
+        margin: 0%;
+        text-align: center;
+    }
+
+    .conteudo {
+        border-radius: 0%;
+        width: 95%;
+        margin-top: 2rem;
+    }
+
+    .principal {
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+        background: none;
+    }
+
+    .titulo__principal {
+        padding: 15px 5px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .card {
+        width: 100%;
+        margin: 1rem 0.2rem;
+    }
+
+    .descricao {
+        padding: 5px;
+    }
+
+    .rodape {
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    .info__contato {
+        flex-direction: column;
+    }
+
+    .descricao1 {
+        margin-bottom: 1rem;
+    }
+
+    .sub__principal {
+        width: 100%;
+    }
+
+    .sub__titulo-secundario {
+        padding: 15px 5px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .titulo__redes {
+        width: 100%;
+    }
+
+    .item__redes {
+        width: 25%;
+        margin-top: 1rem;
+    }
+
+    .rodape__sociais {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1290px) {
+    .titulo__redes {
+        width: 100%;
+    }
+
+    .item__redes {
+        width: 15%;
+        margin-top: 2rem;
+    }
+
+    .rodape__sociais {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 400px) {
+    .rodape__sociais {
+        flex-direction: column;
+    }
+}
